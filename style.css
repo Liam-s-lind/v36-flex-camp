@@ -1,7 +1,11 @@
-.kort-rad {
+.kort {
   display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1 1 200px;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
 }
 
 .kort-rad {
@@ -15,4 +19,14 @@
 .kort img {
   max-width: 100%;
   height: auto;
+}
+
+.kort .btn {
+  margin-top: auto;
+  display: inline-block;
+  padding: 0.65rem 0.75rem;
+  background-color: #0f172a;
+  color: #f8fafc;
+  text-decoration: none;
+  font-weight: 700;
 }
