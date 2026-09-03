@@ -7,6 +7,10 @@ De direkta barnen, `<article class="kort">` i `index.html`, blir då flex-items 
 I samma `.kort-rad` skapar `gap: 1rem` ett jämnt mellanrum mellan de olika korten, och `flex-wrap: wrap` låter dem flytta ned till nästa rad när skärmen blir för smal.
  Grid är främst till för tvådimensionella layouter där både rader och kolumner behöver styras samtidigt; det behövdes inte här eftersom korten bara ordnas längs en huvudriktning och får radbrytas automatiskt.
 
+ ## Varför Flexbox passar mitt innehåll
+
+ Flexbox passar mina aktivitetskort eftersom de ska ligga i en riktning med jämna mellanrum och kunna radbrytas automatiskt på smala skärmar.
+
 ## Feedback på en klasskamrats kod
 -
 ```html
