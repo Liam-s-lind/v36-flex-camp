@@ -1,12 +1,19 @@
 .kort {
-    padding: 1rem;
-    background-color: #f8fafc;
-    border: 1px solid #e2e8f0;
-    color: #0f172a;
-    font-family: sans-serif;
+  display: inline-block;
+  width: 20%;
+  margin-right: 3%;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #0f172a;
+  font-family: sans-serif;
+}
+
+.kort-rad {
+  font-size: 0;
 }
 
 .kort img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
