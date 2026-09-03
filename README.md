@@ -9,6 +9,7 @@ I samma `.kort-rad` skapar `gap: 1rem` ett jämnt mellanrum mellan de olika kort
 
 ## Feedback på en klasskamrats kod
 -
+```html
 <section>
   <div style="display: flex;">
     <div class="card" style="display: flex">Workshop</div>
@@ -16,6 +17,7 @@ I samma `.kort-rad` skapar `gap: 1rem` ett jämnt mellanrum mellan de olika kort
     <div class="card">Brädspel</div>
   </div>
 </section>
+```
 
 .card {
   margin: 20px;
