@@ -17,11 +17,12 @@ I samma `.kort-rad` skapar `gap: 1rem` ett jämnt mellanrum mellan de olika kort
     <div class="card">Brädspel</div>
   </div>
 </section>
-```
+
 
 .card {
   margin: 20px;
 }
+```
 -
 
 FEEDBACK 1: Flytta `style="display: flex;"` från HTML-koden → ge behållaren en klass och skriv `display: flex` i CSS, så blir struktur och design tydligare åtskilda.
